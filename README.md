@@ -1,6 +1,7 @@
 # Astar-JPS-Algorithm-ROS
  An cpp implementation of 3D A* and JPS algorithm demo for ROS，more details can be found at 
  https://mesywang.github.io/2020/01/23/Dijkstra-and-Astar/
+ https://mesywang.github.io/2020/01/26/Jump-Point-Search/
 
 ## 1. Prerequisites
 + Ubuntu 64-bit 16.04. [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu).
@@ -21,7 +22,7 @@ the path of configuration file：~/catkin_ws/src/grid_path_searcher/launch/rviz_
 
 + Launch the package.
 ```
-roslaunch grid_path_searcher demo.launch   
+  roslaunch grid_path_searcher demo.launch   
 ```
 　　Normally, you will find a  complex randomly generated map in Rviz. The sparsity of obstacles in this map can be tuned in demo.launch. At this time, you can select a goal for the A* or JPS algorithm by using the 3D Nav Goal tool.
 
