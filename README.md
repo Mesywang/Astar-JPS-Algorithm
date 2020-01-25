@@ -18,7 +18,7 @@
 + Run the rviz with specified configuration.
 the path of configuration file：~/catkin_ws/src/grid_path_searcher/launch/rviz_config/demo.rviz 
 
-+ Run the package.
++ Launch the package.
 ```
 roslaunch grid_path_searcher demo.launch   
 ```
