@@ -1,5 +1,6 @@
 # Astar-JPS-Algorithm-ROS
  An cpp implementation of 3D A* and JPS algorithm demo for ROS，more details can be found at 
+ https://mesywang.github.io/2020/01/23/Dijkstra-and-Astar/
 
 ## 1. Prerequisites
 + Ubuntu 64-bit 16.04. [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu).
