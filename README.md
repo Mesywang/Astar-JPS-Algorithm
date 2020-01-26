@@ -18,6 +18,7 @@ An cpp implementation of 3D A* and JPS algorithm demo for ROS，more details can
 ## 3. Run the Demo
 
 + Run the rviz with specified configuration.
+
 the path of configuration file：~/catkin_ws/src/grid_path_searcher/launch/rviz_config/demo.rviz 
 
 + Launch the package.
