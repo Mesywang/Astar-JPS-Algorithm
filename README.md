@@ -30,6 +30,8 @@ the path of configuration file：~/catkin_ws/src/grid_path_searcher/launch/rviz_
 + The result
 
 　　You will find two paths. The path formed by  black cubes is calculated by the A * algorithm，and another path formed by  white cubes is calculated by the JPS. They are different，but they're both optimal.
+
+<div align=center> A* and JPS </div>
 <div align=center>
-	<img src="./img/AstarAndJPS.png" >
+	<img src="./img/AstarAndJPS.png" width = "600" height = "500" >
 </div>
