@@ -90,7 +90,7 @@ void rcvPointCloudCallBack(const sensor_msgs::PointCloud2 &pointcloud_map)
 
     pcl::toROSMsg(cloud_vis, map_vis);
 
-    map_vis.header.frame_id = "/world";
+    map_vis.header.frame_id = "world";
     _grid_map_vis_pub.publish(map_vis);
 
     _has_map = true;
